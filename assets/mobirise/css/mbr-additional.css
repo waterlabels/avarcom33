@@ -165,8 +165,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #d53f31;
-  border-color: #d53f31;
+  background-color: #ed7e63;
+  border-color: #ed7e63;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -174,14 +174,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #9a2a1f;
-  border-color: #9a2a1f;
+  background-color: #e5451e;
+  border-color: #e5451e;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #9a2a1f !important;
-  border-color: #9a2a1f !important;
+  background-color: #e5451e !important;
+  border-color: #e5451e !important;
 }
 .btn-info,
 .btn-info:active {
@@ -329,22 +329,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #85241b;
-  color: #85241b;
+  border-color: #d23d18;
+  color: #d23d18;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #d53f31;
-  border-color: #d53f31;
+  background-color: #ed7e63;
+  border-color: #ed7e63;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #d53f31 !important;
-  border-color: #d53f31 !important;
+  background-color: #ed7e63 !important;
+  border-color: #ed7e63 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #d53f31 !important;
 }
 .text-secondary {
-  color: #d53f31 !important;
+  color: #ed7e63 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -490,7 +490,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #85241b !important;
+  color: #d23d18 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -579,8 +579,8 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  opacity: 0 !important;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
