@@ -3,7 +3,8 @@
  * Copyright 2017 Mobirise
  */
 section {
-  background-color: #eeeeee; }
+  color:#fff;	
+  background-color: #dc6044; }
 
 section,
 .container,
@@ -28,7 +29,7 @@ figure {
   margin-bottom: 0; }
 
 body {
-  color: #232323; }
+  color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -43,8 +44,10 @@ b, strong {
 blockquote {
   padding: 10px 0 10px 20px;
   position: relative;
-  border-left: 2px solid;
-  border-color: #ff3366; }
+  border-left: 5px solid;
+  border-color: #ffffff;
+  background:#dc6044;
+  }
 
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   transition-delay: 9999s;
